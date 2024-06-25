@@ -1,0 +1,2745 @@
+
+
+
+                    /* universal selector  */
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}                    
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+                    /* top bar coding started here  */
+
+.top-bar {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(30,31,41);
+    display: flex;
+    justify-content: space-between; 
+}
+.mail {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: 1px;
+    display: flex;
+    justify-content: flex-end;
+}
+.mail-child {
+    width: 140px;
+    height: 100%;
+    /* border: 1px solid magenta; */
+    padding: 1px;
+}
+.mail-child p {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.mail-child p:hover {
+    color: rgb(198,17,40);
+}
+.mail-child i {
+    color: rgb(198,17,40);
+}
+.account {
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    padding: 1px;
+    display: flex;
+    justify-content: flex-start;
+}
+.dollar {
+    width: 60px;
+    height: 100%;
+    /* border: 1px solid magenta; */
+    padding: 1px;
+}
+.acc {
+    width: 140px;
+    height: 100%;
+    /* border: 1px solid green; */
+    padding: 1px;
+}
+
+.account p {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.account p:hover {
+    color: rgb(198,17,40);
+}
+.account i {
+    color: rgb(198,17,40);
+}
+
+
+
+
+                    /* top bar coding finshed here  */
+
+
+
+                    /* search bar section started here  */
+
+.search {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(21,22,29);
+    border-bottom: 3px solid red;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo {
+    width: 170px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+.logo img {
+    width: 100%;
+    height: 70%;
+    margin-top: 15px;
+}
+
+
+.search-bar {
+    width: 540px;
+    height: 100px;
+    /* border: 1px solid magenta; */
+}
+.search-child {
+    width: 100%;
+    height: 41px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search-list {
+    width: 150px;
+    height: 100%;
+    border: 1px solid rgba(192, 189, 189, 0.795);
+    border-radius: 20px 0px 0px 20px;
+}
+.search-list  select {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    outline: none;
+}
+.search-list  select option {
+    font-size: 13px;
+}
+
+
+.search-box {
+    width: 290px;
+    height: 100%;
+    /* border: 1px solid red; */
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(144, 145, 146);
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+.search-btn {
+    width: 98px;
+    height: 100%;
+    /* border: 1px solid magenta; */
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(209,0,36);
+    cursor: pointer;
+}
+.search-btn p {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white ;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+
+.cart {
+width: 200px;
+height: 100px;
+/* border: 1px solid rgb(223, 226, 43); */
+display: flex;
+flex-direction: row;
+}
+.cart-child {
+    width: 100px;
+    height: 100%;
+    /* border: 1px solid magenta; */
+    position: relative;
+    padding: 1px;
+}
+.fa-heart {
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.cart-count {
+    position: absolute;
+    right: 24px;
+    top: 13px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: rgb(209,0,36);
+    color: white;
+    padding: 2px;
+    font-size: 11px;
+    text-align: center;
+    cursor: pointer;
+}
+.cart-child p {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: white ;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.menu-icon {
+    width: auto;
+    height: auto;
+    display: none;
+}
+
+
+
+                    /* search bar section finished here  */
+
+
+
+                    /* navbar section started here  */
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border-bottom: 1px solid rgb(199, 198, 198);
+}
+.navbar ul {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.navbar ul li {
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(61,52,119) ;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+
+
+}
+.navbar ul li:hover {
+    color:  rgb(209, 0, 36);
+}
+.li-underline {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    border: 1px solid rgb(209, 0, 36);
+    background-color:rgb(209, 0, 36);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.44s;
+}
+.navbar ul li:hover .li-underline {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+.navbar2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    width: 300px;
+    height: 100%;
+    display: none;
+}
+.menu-icon:hover~.navbar2 {
+    display: block;
+}
+.navbar2 ul {
+    margin-left: 30px;
+    margin-top: 10px;
+    /* border: 1px solid yellow; */
+    width: auto;
+    padding-bottom: 10px;
+}
+.navbar2 ul li {
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(61,52,119) ;
+    margin-left: 25px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+
+
+}
+.navbar2 ul li:hover {
+    color:  rgb(209, 0, 36);
+}
+.li-underline {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    border: 1px solid rgb(209, 0, 36);
+    background-color:rgb(209, 0, 36);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.44s;
+}
+.navbar2 ul li:hover .li-underline {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+                    /* navbar section finished here  */
+
+
+
+
+                    /* collection section started here  */
+
+.collection {
+    width: 1150px;
+    height: auto;
+    background-color: white;
+    /* border: 2px solid magenta; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin: auto;
+
+}
+.collection-child {
+    background-color: rgb(228,231,237);
+    width: 32%;
+    height: 230px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.collection-path {
+    clip-path: polygon(0 0, 100% 0%, 30% 100%, 0% 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(219, 5, 41, 0.87);
+    width: 350px;
+    height: 100%;
+}
+.collection-path h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin: 25px;
+}
+.collection-path p {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+    margin-top: -10px;
+}
+.collection-child:hover img {
+    transform: scale(1.2);
+}
+.collection-child img {
+    width: 90%;
+    height: 130%;
+    margin-top: -40px;
+    margin-left: 30px;
+    transition: 0.34s;
+
+}
+
+
+                    /* collection section finished here  */
+
+
+
+
+                    /* new product section started here  */
+
+
+.products {
+    width: 1150px;
+    height: auto;
+    background-color: white;
+    /* border: 2px solid green; */
+    padding: 1px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 70px;
+
+}
+.product-li {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    /* border: 1px solid magenta; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+.product-li-child1 {
+    width: 220px;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+.product-li-child1 h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(43, 45, 66);
+    margin-top: 18px;
+}
+.product-li-child2 {
+    width: 400px;
+    height: 100%;
+    /* border: 1px solid blue;   */
+}
+.product-li-child2 ul li {
+    display: inline-flex;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(141, 153, 174);
+    margin: 8px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+}
+.product-li-child2 ul li:hover {
+    color: brown;
+}
+.product-li-child2 ul li:hover .li-underline {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+
+
+.product-list {
+    width: 225%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    animation-name: productMove;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes productMove {
+    0% {
+        margin-left: 0px;
+    }
+    6.25% {
+        margin-left: -280px;
+    }
+    12.50% {
+        margin-left: -280px;
+    }
+    18.75% { 
+        margin-left: -280px;
+    }
+    25% { 
+        margin-left: -565px;
+    }
+    31.25% {
+        margin-left: -565px;
+    }
+    37.50% {
+        margin-left: -565px;
+    }
+    43.75% {
+        margin-left: -860px;
+    }
+    50% {
+        margin-left: -860px;
+    }
+    56.25% {
+        margin-left: -860px;
+    }
+    63.75% {
+        margin-left: -1140px; 
+    }
+    70% {
+        margin-left: -1140px; 
+    }
+    76.25% {
+        margin-left: -1140px; 
+    }
+    84% {
+        margin-left: -1430px;
+    }
+    92% {
+        margin-left: -1430px;
+    }
+    100% {
+        margin-left: -1430px;
+    }
+
+}
+
+.product-child {
+    width: 270px;
+    height: 100%;
+    border: 1px solid rgb(199, 196, 196);
+    position: relative;
+
+}
+.product-child:hover {
+    border: 2px solid brown;
+}
+.product-photo {
+    width: 100%;
+    height: 180px;
+    /* border: 1px solid green; */
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.product-photo img {
+    width: 90%;
+    height: 130%;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.product2 img {
+    width: 90%;
+    height: 110%;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.product-tag {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 55px;
+    height: 23px;
+    background-color: rgb(209,0,36);
+    color: white;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+}
+.product-tag2 {
+    position: absolute;
+    right: 70px;
+    top: 10px;
+    width: 55px;
+    height: 23px;
+    color: rgb(209,0,36);
+    border: 2px solid rgb(209,0,36);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding:4px;
+}
+.tag3 {
+    right: 10px;
+}
+.product-det {
+    width: 230px;
+    height: 100px;
+    border-bottom: 1px solid rgb(204, 202, 202);
+    margin: auto;
+}
+.product-det P {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(141, 153, 174) ;
+    text-align: center;
+    margin: 10px;
+    margin-top: 40px;
+}
+.product-det h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color:rgb(43,45,66);
+    text-align: center;
+    margin: 10px;
+}
+.product-det h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(239, 35, 60);
+    text-align: center;
+    margin: 10px;
+}
+.product-det span {
+    font-family: Montserrat, sans-serif;
+    font-size: 12.6px;
+    font-weight: 700;
+    color: rgb(141, 153, 174);
+    text-align: center;
+    text-decoration:line-through;
+}
+.star-rating {
+    width: 160px;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+}
+.stars {
+    width: auto;
+    height: auto;
+    /* border: 1px solid blue; */
+    position: absolute;
+    left: 40px;
+    top: -7px;
+    display: flex;
+}
+.stars i {
+    color: rgb(239, 35, 60);
+    font-size: 13px;
+}
+.rating-icon {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-top: 35px;
+    cursor: pointer;
+
+}
+.rating-icon i {
+    color: black;
+    font-size: 14px;
+    margin: 10px;
+}
+.rating-icon:hover {
+    background-color: rgba(201, 199, 199, 0.822);
+
+}
+.rating-icon:hover i {
+    color: red;
+}
+.heart-div {
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.24s;
+}
+.heart2 {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    
+}
+.heart3 {
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    padding-left: 15px;
+    
+}
+.rating-icon i:hover+.heart-div {
+    visibility: visible;
+    opacity: 1;
+}
+.cart-div {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    bottom: -60px;
+    transition: 0.34s;
+    visibility: hidden;
+    opacity: 0;
+}
+.cart-div button {
+    width: 130px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    margin-left: 70px;
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.44s;
+    cursor: pointer;
+}
+.cart-div button:hover {
+    color: red;
+    background-color: white;
+    border: 3px solid red;
+}
+.product-child:hover .cart-div {
+    height: 70px;
+    visibility: visible;
+    opacity: 1;
+    bottom: -70px;
+}
+
+
+
+                    /* new product section finished here  */
+
+
+
+
+
+                    /* deal section started here  */
+
+.deal {
+    width: 100%;
+    height: 65vh;
+    background-image: url(./images/hotdeal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
+}
+.deal-parent {
+    width: 460px;
+    height: auto;
+    /* border: 2px solid magenta; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+}
+.deal-four {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211,23,55);
+    border-radius: 50%;
+    margin-top: 60px;
+    text-align: center;
+}
+.deal-four h1 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.deal-four p {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+.deal-heading {
+    color: rgb(43, 45, 66);
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+}
+.deal-para {
+    color: rgb(51, 51, 51);
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.deal-parent button {
+    width: 150px;
+    height: 45px;
+    background-color: rgb(209,0,36);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.deal-parent button:hover {
+    background-color: rgb(223, 9, 45);
+}
+
+
+                    /* deal section finished here  */
+
+
+
+
+                    /* top selling triplle sliding anmation sect  */
+
+
+.selling {
+    width: 1150px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+.selling-slide {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid magenta; */
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.slides {
+    width: 32%;
+    height: 70vh;
+    /* border: 1px solid mediumseagreen; */
+}
+
+.top {
+    width: 99%;
+    height: 70px;
+    margin: auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top h1 {
+    font-family:  Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: rgb(43,45,66);
+}
+.circle {
+    width: 50px;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+}
+.circle-child {
+    width: 19px;
+    height: 19px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 50%;
+    margin-top: 26px;
+    cursor: pointer;
+}
+.circle-child i {
+    font-size: 11px;
+    margin: 6px;
+    margin-top: 0px;
+}
+.circle-child:hover {
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+.slider {
+    width: 99%;
+    height: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.slider-parent {
+    width: 500%;
+    height: 100%;
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation-name: sliderMove;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes sliderMove{
+    0% {
+        margin-left: 0px;
+    }
+    10% {
+        margin-left: 0px;
+    }
+    12% {
+        margin-left: -355px;
+    }
+    30% {
+        margin-left: -355px;
+    }
+    32% {
+        margin-left: -715px;
+    }
+    50% {
+        margin-left: -715px; 
+    }
+    52% {
+        margin-left: -1080px;
+    }
+    70% {
+        margin-left: -1080px;
+    }
+    72% {
+        margin-left: -1455px;
+    }
+    90% {
+        margin-left: -1455px;
+    }
+    100% {
+        margin-left: -1455px;
+    }
+}
+
+
+.slider-parent2 {
+    width: 500%;
+    height: 100%;
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation-name: sliderMove2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes sliderMove2{
+    0% {
+        margin-left: 0px;
+    }
+    10% {
+        margin-left: 0px;
+    }
+    12% {
+        margin-left: -355px;
+    }
+    30% {
+        margin-left: -355px;
+    }
+    32% {
+        margin-left: -715px;
+    }
+    50% {
+        margin-left: -715px; 
+    }
+    52% {
+        margin-left: -1080px;
+    }
+    70% {
+        margin-left: -1080px;
+    }
+    72% {
+        margin-left: -1455px;
+    }
+    90% {
+        margin-left: -1455px;
+    }
+    100% {
+        margin-left: -1455px;
+    }
+}
+
+
+
+
+
+.slider-child {
+    width: 340px;
+    height: 100%;
+    /* border: 1px solid darkorange; */
+    padding: 1px;
+}
+.s-child-pro {
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+}
+.photo {
+    width: 70px;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+.photo img {
+    width: 90%;
+    height: 80%;
+}
+.s-det {
+    width: 266px;
+    height: 100%;
+    /* border: 1px solid magenta; */
+    padding: 1px;
+}
+.s-det p {
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color:  rgb(141, 153, 174);
+    margin-top: 3px;
+}
+.s-det h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color:  rgba(44, 44, 44, 0.863);
+    margin-top: 10px;
+}
+.s-det h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color:  rgb(209, 0, 36);
+    margin-top: 8px;
+}
+.s-det span {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color:  rgb(141, 153, 174);
+    text-decoration:line-through;
+}
+
+
+
+
+                    /* top selling triple animation slidng sect finished  */
+
+
+
+
+
+                    /* new selleter section started here  */
+
+
+
+.selleter {
+    width: 100%;
+    height: 40vh;
+    border-top: 2px solid rgb(182, 179, 179);
+    background-image: url(https://png.pngtree.com/png-vector/20190927/ourmid/pngtree-email-icon-png-image_1757854.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 22%;
+    background-size: contain ;
+    position: relative;
+}
+.selleter-cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+.selleter-cover h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    margin-top: 40px;
+
+}
+.selleter-cover span {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(51, 51, 51); 
+}
+.selleter-mail {
+    width: 600px;
+    height: 43px;
+    border-radius: 20px;
+    border: 1px solid rgba(197, 195, 195, 0.733);
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.selleter-mail input{
+    width: 70%;
+    height: 100%;
+    border:1px solid rgba(43, 43, 255, 0.534);
+    outline: none;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 15px;
+}
+.selleter-mail button {
+    width: 30%;
+    background-color: rgb(209,0,36);
+    cursor: pointer;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+}
+.selleter-mail button p {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.selleter-icons {
+    width: 200px;
+    /* border: 1px solid green; */
+    height: 43px;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sellet-icons {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(194, 192, 192, 0.836);
+    cursor: pointer;
+}
+.sellet-icons:hover {
+    background-color:rgba(218, 214, 214, 0.897) ;
+}
+.sellet-icons i {
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    margin-left: 11px;
+}
+.sellet-icons:hover i {
+    color: brown;
+}
+
+
+                    /* new selleter section finished here  */
+
+
+
+
+                    /* footer section started here  */
+
+
+
+.footer {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    border-top: 3px solid red;
+    overflow: hidden;
+    
+
+}
+.footer-parent {
+    width: 1150px;
+    height: 100%;
+    /* border: 1px solid yellowgreen; */
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.footer-child {
+    height: 90%;
+    width: 24%;
+    /* border: 1px solid magenta; */
+    padding: 1px;
+}
+.footer-child h1 {
+    font-family:  Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+.footer-child p {
+    font-family:  Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(185, 186, 188);
+    margin-top: 20px;
+}
+.footer-child h2 {
+    font-family:  Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(185, 186, 188);
+    margin-top: 10px;
+    cursor: pointer;
+    /* border: 1px solid green; */
+    width: max-content;
+}
+.footer-child h2:hover {
+    color:  rgb(209, 0, 36);
+}
+.footer-child i {
+    color:  rgb(209, 0, 36);
+    margin-right: 5px;
+}
+
+
+                    /* footer section finished here  */
+
+
+
+                    /* footer bottom section started here  */
+
+.footer-bottom {
+    width: 100%;
+    height: auto;
+    background-color: rgb(30,31,41);
+    padding: 1px;
+    
+}
+
+.footer-bottom h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(185, 186, 188) ;
+    text-align: center;
+    margin-top: 130px;
+    padding-bottom: 15px;
+}
+.footer-bottom span {
+    color: brown;
+    cursor: pointer;
+}
+.footer-bottom span:hover {
+   color: magenta;
+   text-decoration: underline;
+}
+
+
+                    /* footer bottom section finished here  */
+
+
+
+
+
+
+
+
+
+
+
+                    /* //////////////////////////////// */
+
+
+
+                    /* top bar section  */
+
+                    @media screen and (max-width:1323px) {
+                        
+                        .footer-parent {
+                            width: 97%;
+                        }
+                    }
+
+                    
+                    @media screen and (max-width:1201px) {
+            
+                        .collection {
+                            width: 1000px;
+                        }
+                        .products {
+                            width: 1000px;
+                        }
+                        .product-child {
+                            width: 230px;
+                        }
+                        .selling {
+                            width: 1000px;
+                        }
+                        
+
+                        @keyframes productMove {
+                            0% {
+                                margin-left: 0px;
+                            }
+                            6.25% {
+                                margin-left: -245px;
+                            }
+                            12.50% {
+                                margin-left: -245px;
+                            }
+                            18.75% { 
+                                margin-left: -245px;
+                            }
+                            25% { 
+                                margin-left: -497px;
+                            }
+                            31.25% {
+                                margin-left: -497px;
+                            }
+                            37.50% {
+                                margin-left: -497px;
+                            }
+                            43.75% {
+                                margin-left: -747px;
+                            }
+                            50% {
+                                margin-left: -747px;
+                            }
+                            56.25% {
+                                margin-left: -747px;
+                            }
+                            63.75% {
+                                margin-left: -1000px; 
+                            }
+                            70% {
+                                margin-left: -1000px; 
+                            }
+                            76.25% {
+                                margin-left: -1000px; 
+                            }
+                            84% {
+                                margin-left: -1250px;
+                            }
+                            92% {
+                                margin-left: -1250px;
+                            }
+                            100% {
+                                margin-left: -1250px;
+                            }
+                        
+                            
+                        }
+
+
+
+
+                        @keyframes sliderMove {
+                            0% {
+                                margin-left: 0px;
+                            }
+                            10% {
+                                margin-left: 0px;
+                            }
+                            12% {
+                                margin-left: -325px;
+                            }
+                            30% {
+                                margin-left: -325px;
+                            }
+                            32% {
+                                margin-left: -665px;
+                            }
+                            50% {
+                                margin-left: -665px; 
+                            }
+                            52% {
+                                margin-left: -1000px;
+                            }
+                            70% {
+                                margin-left: -1000px;
+                            }
+                            72% {
+                                margin-left: -1330px;
+                            }
+                            90% {
+                                margin-left: -1330px;
+                            }
+                            100% {
+                                margin-left: -1330px;
+                            }
+                        }
+
+                        @keyframes sliderMove2 {
+                            0% {
+                                margin-left: 0px;
+                            }
+                            10% {
+                                margin-left: 0px;
+                            }
+                            12% {
+                                margin-left: -325px;
+                            }
+                            30% {
+                                margin-left: -325px;
+                            }
+                            32% {
+                                margin-left: -665px;
+                            }
+                            50% {
+                                margin-left: -665px; 
+                            }
+                            52% {
+                                margin-left: -1000px;
+                            }
+                            70% {
+                                margin-left: -1000px;
+                            }
+                            72% {
+                                margin-left: -1330px;
+                            }
+                            90% {
+                                margin-left: -1330px;
+                            }
+                            100% {
+                                margin-left: -1330px;
+                            }
+                        }
+                       
+                       }
+
+
+          @media screen and (max-width:1055px) {
+            .mail {
+                width: 420px;
+            }
+          }
+
+           @media screen and (max-width:991px) {
+            
+            .top-bar {
+                height: 80px;
+                flex-direction: column;
+            }
+            .account {
+                justify-content: flex-end;
+            }
+            .acc {
+                width: 110px;
+            }
+            .search {
+                height: 230px;
+                flex-direction: column;
+                align-items: center;
+                /* border: 3px solid red; */
+                /* padding-left: 50px; */
+            }
+            .logo {
+                height: 75px;
+            }
+            .logo img {
+                margin-top: 0px;
+                height: 73px;
+            }
+            .search-bar {
+                height: 70px;
+                width: 100%;
+                /* border: 3px solid red; */
+            }
+            .search-child {
+                margin-top: 15px;
+
+            }
+            .cart {
+                width: 285px;
+                align-self: flex-end;
+                /* margin-left: 415px; */
+            }
+            .menu-icon {
+                display: inline;
+                width: 80px;
+            }
+            .navbar {
+                display: none;
+            }
+
+            .collection {
+                width: 700px;
+                /* flex-direction: row; */
+                flex-wrap: wrap;
+                /* border: 4px solid red; */
+            }
+            .collection-child {
+                width: 48%;
+                height: auto;
+                
+            }
+            .products {
+                width: 700px;
+            }
+            .product-list {
+                width: 430%;
+                height: auto;
+            }
+            .product-child {
+                width: 10.3%;
+                /* border: 2px solid blue; */
+            }
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -310px;
+                }
+                12.50% {
+                    margin-left: -310px;
+                }
+                18.75% { 
+                    margin-left: -310px;
+                }
+                25% { 
+                    margin-left: -645px;
+                }
+                31.25% {
+                    margin-left: -645px;
+                }
+                37.50% {
+                    margin-left: -645px;
+                }
+                43.75% {
+                    margin-left: -980px;
+                }
+                50% {
+                    margin-left: -980px;
+                }
+                56.25% {
+                    margin-left: -980px;
+                }
+                63.75% {
+                    margin-left: -1315px; 
+                }
+                70% {
+                    margin-left: -1315px; 
+                }
+                76.25% {
+                    margin-left: -1315px; 
+                }
+                84% {
+                    margin-left: -1650px;
+                }
+                92% {
+                    margin-left: -1650px;
+                }
+                100% {
+                    margin-left: -1650px;
+                }
+            
+                
+            }
+            .selling {
+                width: 700px;
+            }
+            
+            
+            .slides {
+                width: 48%;
+            }
+            .footer {
+                height: auto;
+            }
+
+            .footer-parent {
+                width: 700px;
+            }
+            .footer-child {
+                width: 48%;
+                height: 50vh;
+
+            }
+           
+            
+            
+            
+           } 
+           
+           @media screen and (max-width:771px) {
+            
+            .mail {
+                width: 420px;
+            }
+            .account {
+                width: 145px;
+            }
+            .product-li {
+                height: 150px;
+                flex-direction: column;
+            }
+            .product-photo img {
+                width: auto;
+            }
+           }
+
+           @media screen and (max-width:700px) {
+            .collection {
+                width: 100%;
+            }
+            .collection-child {
+                width: 48%;
+            }
+            .collection-path {
+                width: 98%;
+            }
+            .products {
+                width: 100%;
+            }
+            /* .product-list {
+                width: a;
+            } */
+            .product-child {
+                width: 10%;
+            }
+            .product-det {
+                width: 80%;
+                height: auto;
+                /* border: 1px solid yellow; */
+            }
+            .selling {
+                width: 93%;
+            }
+
+           }
+
+           @media screen and (max-width:695px) {
+
+
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -305px;
+                }
+                12.50% {
+                    margin-left: -305px;
+                }
+                18.75% { 
+                    margin-left: -305px;
+                }
+                25% { 
+                    margin-left: -645px;
+                }
+                31.25% {
+                    margin-left: -645px;
+                }
+                37.50% {
+                    margin-left: -645px;
+                }
+                43.75% {
+                    margin-left: -970px;
+                }
+                50% {
+                    margin-left: -970px;
+                }
+                56.25% {
+                    margin-left: -970px;
+                }
+                63.75% {
+                    margin-left: -1300px; 
+                }
+                70% {
+                    margin-left: -1300px; 
+                }
+                76.25% {
+                    margin-left: -1300px; 
+                }
+                84% {
+                    margin-left: -1640px;
+                }
+                92% {
+                    margin-left: -1640px;
+                }
+                100% {
+                    margin-left: -1640px;
+                }
+
+            }
+            
+
+           }
+
+           @media screen and (max-width:681px) {
+            
+            .product-child {
+                width: 9.5%;
+            }
+           }
+
+           @media screen and (max-width:627px) {
+            
+            
+            .product-child {
+                width: 9%;
+            }
+
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -285px;
+                }
+                12.50% {
+                    margin-left: -285px;
+                }
+                18.75% { 
+                    margin-left: -285px;
+                }
+                25% { 
+                    margin-left: -585px;
+                }
+                31.25% {
+                    margin-left: -585px;
+                }
+                37.50% {
+                    margin-left: -585px;
+                }
+                43.75% {
+                    margin-left: -880px;
+                }
+                50% {
+                    margin-left: -880px;
+                }
+                56.25% {
+                    margin-left: -880px;
+                }
+                63.75% {
+                    margin-left: -1180px; 
+                }
+                70% {
+                    margin-left: -1180px; 
+                }
+                76.25% {
+                    margin-left: -1180px; 
+                }
+                84% {
+                    margin-left: -1480px;
+                }
+                92% {
+                    margin-left: -1480px;
+                }
+                100% {
+                    margin-left: -1480px;
+                }
+
+            }
+            .selleter-mail {
+                width: 95%;
+            }
+            .footer-parent {
+                width: 95%;
+            }
+
+           }
+
+           @media screen and (max-width:600px) {
+            
+            .account {
+                width: 145px;
+            }
+
+            .product-list {
+                width: 440%;
+            }
+
+           }
+
+           @media screen and (max-width:584px) {
+            
+            .product-list {
+                width: 455%;
+            }
+           }
+
+           @media screen and (max-width:550px) {
+            
+            .product-list {
+                width: 460%;
+            }
+            .product-child {
+            width: 9.5%;
+            }
+
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -275px;
+                }
+                12.50% {
+                    margin-left: -275px;
+                }
+                18.75% { 
+                    margin-left: -275px;
+                }
+                25% { 
+                    margin-left: -560px;
+                }
+                31.25% {
+                    margin-left: -560px;
+                }
+                37.50% {
+                    margin-left: -560px;
+                }
+                43.75% {
+                    margin-left: -840px;
+                }
+                50% {
+                    margin-left: -840px;
+                }
+                56.25% {
+                    margin-left: -840px;
+                }
+                63.75% {
+                    margin-left: -1125px; 
+                }
+                70% {
+                    margin-left: -1125px; 
+                }
+                76.25% {
+                    margin-left: -1125px; 
+                }
+                84% {
+                    margin-left: -1405px;
+                }
+                92% {
+                    margin-left: -1405px;
+                }
+                100% {
+                    margin-left: -1405px;
+                }
+
+            }
+           
+           }
+           @media screen and (max-width:520px) {
+            
+            .product-list {
+                width: 475%;
+            }
+            .product-child {
+                margin-left: 10px;
+
+            }
+           }
+           @media screen and (max-width:531px) {
+            
+            .search-list {
+                width: 170px;
+            }
+           
+           }
+
+           @media screen and (max-width:506px) {
+
+
+            .product-list {
+                width: 450%;
+            }
+            .product-child {
+                width: 9%;
+            }
+
+            
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -250px;
+                }
+                12.50% {
+                    margin-left: -250px;
+                }
+                18.75% { 
+                    margin-left: -250px;
+                }
+                25% { 
+                    margin-left: -500px;
+                }
+                31.25% {
+                    margin-left: -500px;
+                }
+                37.50% {
+                    margin-left: -500px;
+                }
+                43.75% {
+                    margin-left: -755px;
+                }
+                50% {
+                    margin-left: -755px;
+                }
+                56.25% {
+                    margin-left: -755px;
+                }
+                63.75% {
+                    margin-left: -1010px; 
+                }
+                70% {
+                    margin-left: -1010px; 
+                }
+                76.25% {
+                    margin-left: -1010px; 
+                }
+                84% {
+                    margin-left: -1275px;
+                }
+                92% {
+                    margin-left: -1275px;
+                }
+                100% {
+                    margin-left: -1275px;
+                }
+
+            }
+           }
+
+
+           @media screen and (max-width:477px) {
+            
+            .search-list {
+                width: 190px;
+            }
+            .search-box {
+                width: 60%;
+            }
+            .collection-child {
+                width: 98%;
+            }
+            .product-list {
+                width: 820%;
+            }
+            .product-child {
+                width: 10%;
+            }
+
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -400px;
+                }
+                12.50% {
+                    margin-left: -400px;
+                }
+                18.75% { 
+                    margin-left: -400px;
+                }
+                25% { 
+                    margin-left: -840px;
+                }
+                31.25% {
+                    margin-left: -840px;
+                }
+                37.50% {
+                    margin-left: -840px;
+                }
+                43.75% {
+                    margin-left: -1270px;
+                }
+                50% {
+                    margin-left: -1270px;
+                }
+                56.25% {
+                    margin-left: -1270px;
+                }
+                63.75% {
+                    margin-left: -1710px; 
+                }
+                70% {
+                    margin-left: -1710px; 
+                }
+                76.25% {
+                    margin-left: -1710px; 
+                }
+                84% {
+                    margin-left: -2135px;
+                }
+                92% {
+                    margin-left: -2135px;
+                }
+                100% {
+                    margin-left: -2135px;
+                }
+
+            }
+
+            .deal {
+                height: auto;
+            }
+
+            .deal-four {
+                margin-top: 10px;
+            }
+
+            .deal-parent {
+                width: 370px;
+
+            }
+            .selling-slide {
+                width: 90%;
+                margin: auto;
+            }
+            .slides {
+                width: 100%;
+            }
+
+            @keyframes sliderMove {
+                0% {
+                    margin-left: 0px;
+                }
+                10% {
+                    margin-left: 0px;
+                }
+                12% {
+                    margin-left: -365px;
+                }
+                30% {
+                    margin-left: -365px;
+                }
+                32% {
+                    margin-left: -765px;
+                }
+                50% {
+                    margin-left: -765px; 
+                }
+                52% {
+                    margin-left: -1160px;
+                }
+                70% {
+                    margin-left: -1160px;
+                }
+                72% {
+                    margin-left: -1560px;
+                }
+                90% {
+                    margin-left: -1560px;
+                }
+                100% {
+                    margin-left: -1560px;
+                }
+            }
+
+           
+            @keyframes sliderMove2 {
+                0% {
+                    margin-left: 0px;
+                }
+                10% {
+                    margin-left: 0px;
+                }
+                12% {
+                    margin-left: -365px;
+                }
+                30% {
+                    margin-left: -365px;
+                }
+                32% {
+                    margin-left: -765px;
+                }
+                50% {
+                    margin-left: -765px; 
+                }
+                52% {
+                    margin-left: -1160px;
+                }
+                70% {
+                    margin-left: -1160px;
+                }
+                72% {
+                    margin-left: -1560px;
+                }
+                90% {
+                    margin-left: -1560px;
+                }
+                100% {
+                    margin-left: -1560px;
+                }
+            }
+            
+            .footer-child {
+                width: 100%;
+            }
+
+           
+           }
+           @media  screen and (max-width:453px) {
+            
+           
+            @keyframes sliderMove {
+                0% {
+                    margin-left: 0px;
+                }
+                10% {
+                    margin-left: 0px;
+                }
+                12% {
+                    margin-left: -355px;
+                }
+                30% {
+                    margin-left: -355px;
+                }
+                32% {
+                    margin-left: -735px;
+                }
+                50% {
+                    margin-left: -735px; 
+                }
+                52% {
+                    margin-left: -1100px;
+                }
+                70% {
+                    margin-left: -1100px;
+                }
+                72% {
+                    margin-left: -1480px;
+                }
+                90% {
+                    margin-left: -1480px;
+                }
+                100% {
+                    margin-left: -1480px;
+                }
+            }
+            @keyframes sliderMove2 {
+                0% {
+                    margin-left: 0px;
+                }
+                10% {
+                    margin-left: 0px;
+                }
+                12% {
+                    margin-left: -355px;
+                }
+                30% {
+                    margin-left: -355px;
+                }
+                32% {
+                    margin-left: -735px;
+                }
+                50% {
+                    margin-left: -735px; 
+                }
+                52% {
+                    margin-left: -1100px;
+                }
+                70% {
+                    margin-left: -1100px;
+                }
+                72% {
+                    margin-left: -1480px;
+                }
+                90% {
+                    margin-left: -1480px;
+                }
+                100% {
+                    margin-left: -1480px;
+                }
+            }
+
+
+           }
+
+           @media screen and (max-width:435px) {
+           
+            .top-bar {
+                
+                height: 130px;
+            }
+            .mail {
+                height: auto;
+                width: 285px;
+                justify-content: start;
+                flex-wrap: wrap;
+            }
+            .mail-child {
+                height: 35px;
+            }
+            .account {
+                height: 40px;
+                margin-top: -25px;
+                padding: 0px;
+            }
+            .product-list {
+                width: 880%;
+            }
+            .product-child {
+            width: 9.5%;
+            }           
+            
+           }
+
+
+           @media screen and (max-width:425px) {
+            
+            @keyframes sliderMove {
+                0% {
+                    margin-left: 0px;
+                }
+                10% {
+                    margin-left: 0px;
+                }
+                12% {
+                    margin-left: -335px;
+                }
+                30% {
+                    margin-left: -335px;
+                }
+                32% {
+                    margin-left: -680px;
+                }
+                50% {
+                    margin-left: -680px; 
+                }
+                52% {
+                    margin-left: -1010px;
+                }
+                70% {
+                    margin-left: -1010px;
+                }
+                72% {
+                    margin-left: -1350px;
+                }
+                90% {
+                    margin-left: -1350px;
+                }
+                100% {
+                    margin-left: -1350px;
+                }
+            }
+
+            @keyframes sliderMove2 {
+                0% {
+                    margin-left: 0px;
+                }
+                10% {
+                    margin-left: 0px;
+                }
+                12% {
+                    margin-left: -335px;
+                }
+                30% {
+                    margin-left: -335px;
+                }
+                32% {
+                    margin-left: -680px;
+                }
+                50% {
+                    margin-left: -680px; 
+                }
+                52% {
+                    margin-left: -1010px;
+                }
+                70% {
+                    margin-left: -1010px;
+                }
+                72% {
+                    margin-left: -1350px;
+                }
+                90% {
+                    margin-left: -1350px;
+                }
+                100% {
+                    margin-left: -1350px;
+                }
+            }
+           }
+
+           @media screen and (max-width:405px) {
+            
+            .product-li-child2 {
+                display: flex;
+                flex-wrap: wrap;
+                width: auto;
+                height: auto;
+            }
+
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -380px;
+                }
+                12.50% {
+                    margin-left: -380px;
+                }
+                18.75% { 
+                    margin-left: -380px;
+                }
+                25% { 
+                    margin-left: -780px;
+                }
+                31.25% {
+                    margin-left: -780px;
+                }
+                37.50% {
+                    margin-left: -780px;
+                }
+                43.75% {
+                    margin-left: -1180px;
+                }
+                50% {
+                    margin-left: -1180px;
+                }
+                56.25% {
+                    margin-left: -1180px;
+                }
+                63.75% {
+                    margin-left: -1570px; 
+                }
+                70% {
+                    margin-left: -1570px; 
+                }
+                76.25% {
+                    margin-left: -1570px; 
+                }
+                84% {
+                    margin-left: -1965px;
+                }
+                92% {
+                    margin-left: -1965px;
+                }
+                100% {
+                    margin-left: -1965px;
+                }
+
+            }
+
+            @keyframes sliderMove {
+                0% {
+                    margin-left: 0px;
+                }
+                10% {
+                    margin-left: 0px;
+                }
+                12% {
+                    margin-left: -335px;
+                }
+                30% {
+                    margin-left: -335px;
+                }
+                32% {
+                    margin-left: -680px;
+                }
+                50% {
+                    margin-left: -680px; 
+                }
+                52% {
+                    margin-left: -1010px;
+                }
+                70% {
+                    margin-left: -1010px;
+                }
+                72% {
+                    margin-left: -1350px;
+                }
+                90% {
+                    margin-left: -1350px;
+                }
+                100% {
+                    margin-left: -1350px;
+                }
+            }
+
+            @keyframes sliderMove2 {
+                0% {
+                    margin-left: 0px;
+                }
+                10% {
+                    margin-left: 0px;
+                }
+                12% {
+                    margin-left: -335px;
+                }
+                30% {
+                    margin-left: -335px;
+                }
+                32% {
+                    margin-left: -680px;
+                }
+                50% {
+                    margin-left: -680px; 
+                }
+                52% {
+                    margin-left: -1010px;
+                }
+                70% {
+                    margin-left: -1010px;
+                }
+                72% {
+                    margin-left: -1350px;
+                }
+                90% {
+                    margin-left: -1350px;
+                }
+                100% {
+                    margin-left: -1350px;
+                }
+            }
+            
+           }
+
+           @media screen and (max-width:385px) {
+
+
+            .product-list {
+                width: 920%;
+            }
+            .product-child {
+                width: 9.5%;
+            }
+        }
+
+           @media screen and (max-width:375px) {
+            
+            /* .search-list {
+                width: 190px;
+            } */
+            .search-box {
+                width: 50%;
+            }
+            .search-list p {
+                font-size: 12px;
+            }
+
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -380px;
+                }
+                12.50% {
+                    margin-left: -380px;
+                }
+                18.75% { 
+                    margin-left: -380px;
+                }
+                25% { 
+                    margin-left: -770px;
+                }
+                31.25% {
+                    margin-left: -770px;
+                }
+                37.50% {
+                    margin-left: -770px;
+                }
+                43.75% {
+                    margin-left: -1160px;
+                }
+                50% {
+                    margin-left: -1160px;
+                }
+                56.25% {
+                    margin-left: -1160px;
+                }
+                63.75% {
+                    margin-left: -1540px; 
+                }
+                70% {
+                    margin-left: -1540px; 
+                }
+                76.25% {
+                    margin-left: -1540px; 
+                }
+                84% {
+                    margin-left: -1925px;
+                }
+                92% {
+                    margin-left: -1925px;
+                }
+                100% {
+                    margin-left: -1925px;
+                }
+
+            }
+           
+           }
+           @media screen and (max-width:367px) {
+        
+
+           
+            .deal-parent {
+                width: 270px;
+                margin-top: 50px;
+
+            }
+            
+           }
+
+           @media screen and (max-width:361px) {
+
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -360px;
+                }
+                12.50% {
+                    margin-left: -360px;
+                }
+                18.75% { 
+                    margin-left: -360px;
+                }
+                25% { 
+                    margin-left: -725px;
+                }
+                31.25% {
+                    margin-left: -725px;
+                }
+                37.50% {
+                    margin-left: -725px;
+                }
+                43.75% {
+                    margin-left: -1100px;
+                }
+                50% {
+                    margin-left: -1100px;
+                }
+                56.25% {
+                    margin-left: -1100px;
+                }
+                63.75% {
+                    margin-left: -1470px; 
+                }
+                70% {
+                    margin-left: -1470px; 
+                }
+                76.25% {
+                    margin-left: -1470px; 
+                }
+                84% {
+                    margin-left: -1835px;
+                }
+                92% {
+                    margin-left: -1835px;
+                }
+                100% {
+                    margin-left: -1835px;
+                }
+
+            }
+            .selling {
+                width: 87%;
+            }
+            .selling-slide {
+                width: 100%;
+            }
+            
+           }
+
+           @media screen and (max-width:353px) {
+            
+            .product-child  {
+                width: 9.7%;
+            }
+            .selleter {
+                height: 45vh;
+            }
+           }
+        
+           @media screen and (max-width:337px) {
+            
+            .cart {
+                height: 170px;
+            }
+            .cart-child {
+                height: 80px;
+            }
+            .search {
+                height: auto;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .menu-icon {
+                margin-top: 80px;
+                margin-left: -180px;
+            }
+
+            .product-child  {
+                width: 9%;
+            }
+            
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -330px;
+                }
+                12.50% {
+                    margin-left: -330px;
+                }
+                18.75% { 
+                    margin-left: -330px;
+                }
+                25% { 
+                    margin-left: -680px;
+                }
+                31.25% {
+                    margin-left: -680px;
+                }
+                37.50% {
+                    margin-left: -680px;
+                }
+                43.75% {
+                    margin-left: -1020px;
+                }
+                50% {
+                    margin-left: -1020px;
+                }
+                56.25% {
+                    margin-left: -1020px;
+                }
+                63.75% {
+                    margin-left: -1370px; 
+                }
+                70% {
+                    margin-left: -1370px; 
+                }
+                76.25% {
+                    margin-left: -1370px; 
+                }
+                84% {
+                    margin-left: -1715px;
+                }
+                92% {
+                    margin-left: -1715px;
+                }
+                100% {
+                    margin-left: -1715px;
+                }
+
+            }
+           }
+
+
+           @media screen and (max-width:320px) {
+            
+        
+            .product-list {
+                animation-duration: 20s;
+            }
+
+            @keyframes productMove {
+                0% {
+                    margin-left: 0px;
+                }
+                6.25% {
+                    margin-left: -315px;
+                }
+                12.50% {
+                    margin-left: -315px;
+                }
+                18.75% { 
+                    margin-left: -315px;
+                }
+                25% { 
+                    margin-left: -640px;
+                }
+                31.25% {
+                    margin-left: -640px;
+                }
+                37.50% {
+                    margin-left: -640px;
+                }
+                43.75% {
+                    margin-left: -970px;
+                }
+                50% {
+                    margin-left: -970px;
+                }
+                56.25% {
+                    margin-left: -970px;
+                }
+                63.75% {
+                    margin-left: -1300px; 
+                }
+                70% {
+                    margin-left: -1300px; 
+                }
+                76.25% {
+                    margin-left: -1300px; 
+                }
+                84% {
+                    margin-left: -1635px;
+                }
+                92% {
+                    margin-left: -1635px;
+                }
+                100% {
+                    margin-left: -1635px;
+                }
+
+            }
+           }
+
+
